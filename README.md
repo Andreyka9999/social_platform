@@ -115,3 +115,29 @@ The project includes a CategorySeeder which seeds 5 default categories: <br>
 
 Run this manually anytime with: <br>
 php artisan db:seed --class=CategorySeeder
+
+## 5. Login Credentials
+After running migrations & seeders, you can register new users via the frontend (/register) or insert manually into the users table.
+
+
+### Testing Checklist:
+- **Auth**: Register → Login → Logout
+- **Posts**: Create, edit, delete, list
+- **Comments**: Add & delete comments
+- **Profile**: View your own posts
+- **UI**: Responsive navigation + forms validation
+
+## P.S
+### If you have any questions regarding setup or usage, feel free to contact me.
+
+
+
+
+
+
+
+
+
+
+
+
