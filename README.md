@@ -51,3 +51,24 @@ Make sure you have installed:
 - **Node.js** (v18+ recommended)
 - **npm** (comes with Node.js)
 - **Angular CLI**: npm install -g @angular/cli
+
+## 2️⃣ Backend Setup (Laravel API)
+
+### 2.1 Navigate to the backend folder
+cd social-platform-backend
+
+### 2.2 Install dependencies
+composer install
+### 2.3 Create environment file
+Copy the example configuration:
+- cp .env.example .env
+
+
+
+
+
+
+
+
+
+
