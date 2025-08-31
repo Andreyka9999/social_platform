@@ -111,6 +111,6 @@ The project includes a CategorySeeder which seeds 5 default categories: <br>
 - Health
 - Lifestyle
 - Travel
-- Food
+- Food <br>
 Run this manually anytime with: <br>
 php artisan db:seed --class=CategorySeeder
