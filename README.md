@@ -98,3 +98,19 @@ export const environment = {
   apiUrl: 'http://127.0.0.1:8000/api/v1'
 };
 
+
+### 3.4 Run Angular app
+ng serve --open
+By default, frontend will run at: <br>
+http://localhost:4200
+
+
+## 4. Default Data (Seeders)
+The project includes a CategorySeeder which seeds 5 default categories: <br>
+- Technology
+- Health
+- Lifestyle
+- Travel
+- Food
+Run this manually anytime with: <br>
+php artisan db:seed --class=CategorySeeder
