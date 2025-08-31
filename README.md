@@ -73,9 +73,16 @@ DB_DATABASE=social_platform <br>
 DB_USERNAME=root <br>
 DB_PASSWORD= <br>
 
+Make sure MySQL is running in XAMPP and the database social_platform is created manually via phpMyAdmin or CLI.
+### 2.5 Run migrations and seeders
+php artisan migrate --seed <br>
+This will create tables and insert default categories (Technology, Health, Lifestyle, Travel, Food).
 
+### 2.6 Start backend server
+php artisan serve <br>
 
-
+By default, API will be available at: <br>
+(http://127.0.0.1:8000)
 
 
 
