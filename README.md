@@ -66,7 +66,7 @@ Copy the example configuration:
 ### 2.4 Configure database (MySQL via XAMPP)
 Open .env and update the following lines:
 
-DB_CONNECTION=mysql
+DB_CONNECTION=mysql <br>
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=social_platform
