@@ -52,7 +52,7 @@ Make sure you have installed:
 - **npm** (comes with Node.js)
 - **Angular CLI**: npm install -g @angular/cli
 
-## 2️⃣ Backend Setup (Laravel API)
+## 2️ Backend Setup (Laravel API)
 
 ### 2.1 Navigate to the backend folder
 cd social-platform-backend
