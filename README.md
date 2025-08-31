@@ -67,11 +67,11 @@ Copy the example configuration:
 Open .env and update the following lines:
 
 DB_CONNECTION=mysql <br>
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=social_platform
-DB_USERNAME=root
-DB_PASSWORD=
+DB_HOST=127.0.0.1 <br>
+DB_PORT=3306 <br>
+DB_DATABASE=social_platform <br>
+DB_USERNAME=root <br>
+DB_PASSWORD= <br>
 
 
 
