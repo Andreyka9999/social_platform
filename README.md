@@ -1,28 +1,53 @@
-# Sociālā platforma – Full Stack Test Project
+# 🚀 Social Platform
 
-Šis projekts ir neliela sociālā platforma, kas izveidota kā **FullStack** testa uzdēvums.  
-Tā sastāv no:
+A **full-stack social platform** built with **Laravel (PHP)** for the backend and **Angular 17 + Tailwind CSS** for the frontend.  
+The project was developed as a **technical assignment** to demonstrate full-stack development skills.
 
-- **Backend:** Laravel 10 (PHP 8.2, MySQL)  
-- **Frontend:** Angular 17 + TailwindCSS  
-- **API:** RESTful, JSON, JWT-based autentifikācija
+---
 
-Lietotāji var:
-- Reģistrēties / Pieslēgties
-- Izveidot, rediģēt un dzēst savus ierakstus
-- Piešķirt kategorijas ierakstiem
-- Skatīt plūsmu ar meklēšanas un kategoriju filtriem
-- Komentēt ierakstus
-- Skatīt lietotāju profilus ar to ierakstiem
+## ✨ Features
 
-## Priekšnoteikumi
-Pārliecinieties, ka jums ir instalēts šāds:
+- **Authentication**
+  - Register new users
+  - Login / Logout with token-based authentication
 
-- **Git** (https://git-scm.com/downloads)
-- **PHP ≥ 8.2** ar `composer` (https://getcomposer.org/)  
-- **MySQL ≥ 8.0** (vai MariaDB ekvivalents)  
-- **Node.js ≥ 18** ar `npm` (https://nodejs.org/)  
-- **Angular CLI**:
-```bash
-  npm install -g @angular/cli
+- **Posts**
+  - Create new posts with categories
+  - Edit and delete your own posts
+  - View the global feed of all posts
+  - Open single post details
 
+- **Comments**
+  - Add comments to posts
+  - Delete your own comments
+  - Display comment count
+
+- **User Profile**
+  - View your own profile with created posts
+  - Navigate to profile from the header when logged in
+
+- **UI/UX**
+  - Responsive design with Tailwind CSS
+  - Navigation bar with conditional links (Login/Register vs. Profile/Logout)
+  - Inline form validation for login, register, and post forms
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** [Angular 17](https://angular.io/), [TypeScript](https://www.typescriptlang.org/), [Tailwind CSS](https://tailwindcss.com/)  
+- **Backend:** [Laravel 10](https://laravel.com/) (PHP 8.x), REST API  
+- **Database:** [MySQL](https://www.mysql.com/) (via **XAMPP** or standalone server)  
+- **Tools:** [Node.js](https://nodejs.org/), [Composer](https://getcomposer.org/), [Visual Studio Code](https://code.visualstudio.com/)  
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Prerequisites
+Make sure you have installed:
+- **PHP 8.x** (included in [XAMPP](https://www.apachefriends.org/))
+- **Composer**
+- **Node.js** (v18+ recommended)
+- **npm** (comes with Node.js)
+- **Angular CLI**: npm install -g @angular/cli
