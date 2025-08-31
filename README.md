@@ -84,5 +84,17 @@ php artisan serve <br>
 By default, API will be available at: <br>
 (http://127.0.0.1:8000)
 
+## 3. Frontend Setup (Angular App)
+### 3.1 Navigate to the frontend folder
+cd social-platform-frontend
 
+### 3.2 Install dependencies
+npm install
+
+### 3.3 Install dependencies
+Open src/environments/environment.ts and update: <br>
+export const environment = {
+  production: false,
+  apiUrl: 'http://127.0.0.1:8000/api/v1'
+};
 
