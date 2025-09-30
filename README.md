@@ -1,7 +1,7 @@
 # 🚀 Social Platform
 
 A **full-stack social platform** built with **Laravel (PHP)** for the backend and **Angular 17 + Tailwind CSS** for the frontend.  
-The project was developed as a **technical assignment** to demonstrate full-stack development skills.
+The project was developed to demonstrate full-stack development skills.
 
 ---
 
@@ -126,9 +126,6 @@ After running migrations & seeders, you can register new users via the frontend 
 - **Comments**: Add & delete comments
 - **Profile**: View your own posts
 - **UI**: Responsive navigation + forms validation
-
-## P.S
-### If you have any questions regarding setup or usage, feel free to contact me.
 
 
 
